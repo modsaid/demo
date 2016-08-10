@@ -49,6 +49,7 @@ test:
 #
 production:
   <<: *default
-  database: demo_production
+  database: demo
   username: demo
-  password: <%= ENV['DEMO_DATABASE_PASSWORD'] %>
+  password: demo
+  host: db01
